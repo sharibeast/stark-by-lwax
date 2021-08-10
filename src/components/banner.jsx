@@ -14,7 +14,7 @@ export default function banner() {
         <div className="">
           <div>
             <h2 className="text-5xl text-center">Elegance and comfort</h2>
-            <p className="text-center">
+            <p className="">
               lorem ipsum Lorem ipsum dolor sit amet, consectetur adipiscing
               elit, sed do eiusmod tempor incididunt ut labore et dolore magna
               aliqua.
