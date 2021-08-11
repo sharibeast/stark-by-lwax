@@ -47,7 +47,7 @@ export default function nav() {
             />
           </div>
           <Link href="#">
-            <a className="block mb-5 text-3xl text-white cursor-pointer">
+            <a className="block mb-5 text-3xl text-white cursor-pointer ">
               Store
             </a>
           </Link>

@@ -8,6 +8,10 @@ module.exports = {
         DEFAULT: '#F1EADC',
         dark: '#E2C893',
       },
+      pinkish: {
+        DEFAULT: '#CB6E84',
+        dark: '#CB6E80',
+      },
     },
     extend: {},
   },
