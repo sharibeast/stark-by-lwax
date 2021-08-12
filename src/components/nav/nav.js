@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import ic from '../../public/assets/menu-outline.svg';
+import ic from '../../../public/assets/menu-outline.svg';
 import { GrClose } from 'react-icons/gr';
 
 export default function nav() {

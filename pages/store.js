@@ -3,9 +3,5 @@ import Layout from '../src/components/layout/layout';
 import Product from '../src/components/store/product';
 
 export default function store() {
-  return (
-    <Layout>
-      <Product />
-    </Layout>
-  );
+  return <Layout></Layout>;
 }
