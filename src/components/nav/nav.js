@@ -36,9 +36,11 @@ export default function nav() {
       <Menu open={open}>
         <div className="relative w-full h-screen text-center bg-cozy-dark ">
           <div className="flex items-center justify-between">
-            <h1 className="mb-10 ml-4 text-2xl font-semibold tracking-widest">
-              STARK
-            </h1>
+            <Link href="/" prefetch={true}>
+              <h1 className="mb-10 ml-4 text-2xl font-semibold tracking-widest">
+                STARK
+              </h1>
+            </Link>
             <GrClose
               aria-label="close"
               onClick={toggle}
@@ -46,7 +48,7 @@ export default function nav() {
               className="absolute cursor-pointer top-3 right-3"
             />
           </div>
-          <Link href="#">
+          <Link href="/store" prefetch={true}>
             <a className="block mb-5 text-3xl text-white cursor-pointer ">
               Store
             </a>
