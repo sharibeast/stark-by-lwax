@@ -17,9 +17,11 @@ export default function nav() {
         <div className="ml-2 md:hidden">
           <Image src={ic} onClick={toggle} height={40} width={40} />
         </div>
-        <div className="ml-4 text-2xl font-semibold tracking-widest ">
-          STARK
-        </div>
+        <Link href="/" prefetch={true}>
+          <div className="ml-4 text-2xl font-semibold tracking-widest cursor-pointer ">
+            STARK
+          </div>
+        </Link>
       </div>
       <div className="hidden mr-8 space-x-8 md:block">
         <Link href="#">

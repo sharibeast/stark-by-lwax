@@ -30,7 +30,9 @@ const data = [
 export default function Store() {
   return (
     <div className="p-2">
-      <p className="mb-8 text-4xl font-semibold text-center ">Latest release</p>
+      <p className="mb-8 text-2xl font-semibold text-center text-gray-500">
+        Latest release
+      </p>
       <div className="grid grid-cols-2 gap-4 md:grid-cols-3">
         {data.map((picha) => (
           <Product src={picha.image} />

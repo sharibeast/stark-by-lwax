@@ -6,11 +6,13 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "latest",
+    "next": "^11.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.2.0",
-    "react-responsive-carousel": "^3.2.20"
+    "react-intersection-observer": "^8.32.0",
+    "react-responsive-carousel": "^3.2.20",
+    "use-spring": "^0.2.4"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.6",

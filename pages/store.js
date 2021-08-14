@@ -1,7 +1,11 @@
 import React from 'react';
 import Layout from '../src/components/layout/layout';
-import Product from '../src/components/store/product';
+import Store from '../src/components/store/store';
 
 export default function store() {
-  return <Layout></Layout>;
+  return (
+    <Layout>
+      <Store />
+    </Layout>
+  );
 }
