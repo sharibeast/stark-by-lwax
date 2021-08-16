@@ -27,7 +27,7 @@ const data = [
   },
 ];
 
-export default function Store() {
+export default function Shop() {
   return (
     <div className="p-2">
       <p className="mb-8 text-2xl font-semibold text-center text-gray-500">

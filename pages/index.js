@@ -1,13 +1,13 @@
 import Banner from '../src/components/banner/banner';
 import Layout from '../src/components/layout/layout';
-import Store from '../src/components/store/store';
+import Shop from '../src/components/store/shop';
 
 export default function Home() {
   return (
     <>
       <Layout>
         <Banner />
-        <Store />
+        <Shop />
       </Layout>
     </>
   );

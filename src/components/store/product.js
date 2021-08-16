@@ -16,11 +16,11 @@ export default function product({ src }) {
       </div>
       <div className="space-y-0">
         {/* <h1>STARK</h1> */}
-        <Logo text="text-gray-400 font-semibold sm:text-xl" />
-        <p className="font-sans text-xl sm:text-xl sm:font-semibold">
+        <Logo text=" font-semibold sm:text-xl" />
+        <p className="font-sans text-xl  sm:text-xl sm:font-semibold">
           new sports bra
         </p>
-        <p className="text-gray-400  sm:text-sm">Tsh 35,000/=</p>
+        <p className="text-gray-400 sm:text-sm">Tsh 35,000/=</p>
       </div>
     </div>
   );
