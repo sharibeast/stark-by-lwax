@@ -7,12 +7,16 @@ import { Carousel } from 'react-responsive-carousel';
 
 const carouselData = [
   {
+    id: 1,
+
     image: require('../../../public/assets/images/bg/bg3.jpg'),
   },
   {
+    id: 2,
     image: require('../../../public/assets/images/bg/bg2.jpg'),
   },
   {
+    id: 3,
     image: require('../../../public/assets/images/bg/bg5.jpg'),
   },
 ];
@@ -31,7 +35,7 @@ export default function banner() {
             interval={3000}
           >
             {carouselData.map((pic) => (
-              <div className="bg-cozy-dark">
+              <div key={pic.id} className="bg-cozy-dark">
                 <Image alt="picture of fitness cloth" src={pic.image} />
               </div>
             ))}
