@@ -24,14 +24,14 @@ export default function nav() {
         </Link>
       </div>
       <div className="hidden mr-8 space-x-8 md:block">
-        <Link href="#">
-          <a className="text-xl">Product</a>
+        <Link href="/store">
+          <a className="text-xl">Store</a>
         </Link>
         <Link href="#">
           <a className="text-xl">About</a>
         </Link>
         <Link href="#">
-          <a className="text-xl">Store</a>
+          <a className="text-xl">Contact</a>
         </Link>
       </div>
       {/* mobile menu */}
@@ -53,11 +53,6 @@ export default function nav() {
           <Link href="/store" prefetch={true}>
             <a className="block mb-5 text-3xl text-white cursor-pointer ">
               Store
-            </a>
-          </Link>
-          <Link href="#">
-            <a className="block mb-5 text-3xl text-white cursor-pointer">
-              Gallery
             </a>
           </Link>
           <Link href="#">
